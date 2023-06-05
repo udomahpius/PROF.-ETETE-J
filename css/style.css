@@ -1,16 +1,32 @@
 /********** Template CSS **********/
 :root {
-    --primary: #13C5DD;
-    --secondary: #354F8E;
+    --primary:#0d236d ;
+  
+    --secondary:#5484f2;
     --light: #EFF5F9;
-    --dark: #1D2A4D;
+    --dark: #00076d;
 }
+.text-primary{
+    color: #5484f2 !important;
+}
+.bg-primary{
+    background-color: #1D2A4D !important;
+}
+.bg-main{
+    background-color: #1D2A4D !important;
 
+}
 .btn {
     font-weight: 700;
     transition: .5s;
 }
-
+.btn-primary{
+    background-color: #afc5f7 !important;
+    transition: all 0.5s ease-in-out !important;
+}
+.border-secondary{
+    color: #fff !important;
+}
 .btn:hover {
     -webkit-box-shadow: 0 8px 6px -6px #555555;
     -moz-box-shadow: 0 8px 6px -6px #555555;
@@ -97,8 +113,9 @@
 }
 
 .hero-header {
-    background: url(../img/hero.jpg) top right no-repeat;
-    background-size: cover;
+    background: url(../img/pet-3-removebg-preview.png) top right no-repeat;
+    background-size: contain;
+    background-blend-mode: soft-light;
 }
 
 .service-item {
