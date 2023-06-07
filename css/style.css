@@ -143,7 +143,7 @@
 .hero-header {
     background: url(../img/pet-3-removebg-preview.png) top right no-repeat;
     background-size: contain;
-    background-blend-mode:lighten;
+    background-blend-mode:soft-light;
 }
 
 .service-item {
